@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo dolores labo
           </Button>
         </div>
         <div className="grid grid-cols-2 order-first lg:order-last grid-rows-2 h-[600px] gap-4">
-          <div className="rounded-3xl row-span-2 overflow-hidden w-full ">
+          <div className="rounded-3xl row-span-1 md:row-span-2 col-span-2 md:col-span-1 overflow-hidden w-full ">
             <Image
               src="/img/person.jpg"
               alt="hero"
