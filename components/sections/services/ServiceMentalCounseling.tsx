@@ -14,7 +14,7 @@ export default function ServiceMentalCounseling() {
             height={1080}
           />
         </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 row-span-1 ">
+        <div className="grid lg:grid-cols-2 items-center grid-cols-1 row-span-1 ">
           <h1 className="text-3xl md:text-4xl w-1/2 leading-10 lg:text-5xl font-semibold">
             Mental Counseling
           </h1>

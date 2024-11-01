@@ -1,7 +1,6 @@
 import React from "react";
 import {
   AboutDiscover,
-  AboutHero,
   AboutQuotes,
   AboutReason,
   AboutStartJourney,
@@ -9,8 +8,6 @@ import {
   AboutSuccessStory,
   AboutTeam,
 } from "@/components/sections/about";
-import NewsLater from "@/components/sections/NewsLater";
-import Testimonials from "@/components/sections/Testimonials";
 import HeroSections from "@/components/sections/HeroSections";
 
 export default function About() {

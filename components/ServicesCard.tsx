@@ -40,10 +40,10 @@ const ServicesCards = () => {
       {features.map((feature, index) => (
         <Card
           key={index}
-          className={`border rounded-3xl overflow-hidden ${
+          className={` rounded-3xl overflow-hidden ${
             index === 1 || index === 2
-              ? "bg-gradient-to-r from-greenSecondary to-greenPrimary text-white"
-              : "bg-white"
+              ? "bg-gradient-to-r  from-greenSecondary to-greenPrimary text-white"
+              : "bg-white border-none shadow-none"
           }`}
         >
           <CardHeader className="flex items-center justify-center pt-8">

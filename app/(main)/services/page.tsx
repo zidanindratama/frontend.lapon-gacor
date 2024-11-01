@@ -4,6 +4,7 @@ import {
   ServiceMentalCounseling,
   ServiceMentalCounselingMethod,
   ServicesMentor,
+  ServicesVideo,
 } from "@/components/sections/services";
 
 export default function Services() {
@@ -13,6 +14,7 @@ export default function Services() {
       <ServiceMentalCounseling />
       <ServiceMentalCounselingMethod />
       <ServicesMentor />
+      <ServicesVideo />
     </>
   );
 }
