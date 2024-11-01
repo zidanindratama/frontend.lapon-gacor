@@ -11,11 +11,12 @@ import {
 } from "@/components/sections/about";
 import NewsLater from "@/components/sections/NewsLater";
 import Testimonials from "@/components/sections/Testimonials";
+import HeroSections from "@/components/sections/HeroSections";
 
 export default function About() {
   return (
     <>
-      <AboutHero />
+      <HeroSections path="about" />
       <AboutDiscover />
       <AboutReason />
       <AboutStartJourney />
@@ -23,8 +24,6 @@ export default function About() {
       <AboutTeam />
       <AboutStats />
       <AboutSuccessStory />
-      <NewsLater />
-      <Testimonials />
     </>
   );
 }

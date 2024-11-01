@@ -1,4 +1,4 @@
-import AboutHero from "@/components/sections/about/AboutHero";
+import HeroSections from "@/components/sections/HeroSections";
 import AboutDiscover from "@/components/sections/about/AboutDiscover";
 import AboutReason from "@/components/sections/about/AboutReason";
 import AboutStartJourney from "./AboutStartJourney";
@@ -8,7 +8,7 @@ import AboutStats from "@/components/sections/about/AboutStats";
 import AboutSuccessStory from './AboutSuccessStory';
 
 export {
-  AboutHero,
+  HeroSections as AboutHero,
   AboutDiscover,
   AboutReason,
   AboutStartJourney,
