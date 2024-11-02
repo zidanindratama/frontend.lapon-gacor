@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ServiceMentalCounseling() {
   return (
-    <div className="mx-auto max-w-7xl min-h-[100dvh] grid place-items-center">
+    <section className="mx-auto max-w-7xl min-h-[100dvh] grid place-items-center">
       <div className="grid grid-rows-2 mx-3 md:grid-rows-3 gap-4">
         <div className="w-full h-[400px] aspect-video row-span-2 relative overflow-hidden rounded-xl">
           <Image
@@ -34,6 +34,6 @@ export default function ServiceMentalCounseling() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

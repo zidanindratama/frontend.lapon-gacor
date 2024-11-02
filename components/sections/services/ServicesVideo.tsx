@@ -4,10 +4,10 @@ import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 export default function ServicesVideo() {
   return (
-    <div className="w-full min-h-[100dvh] grid place-items-center">
+    <section className="w-full min-h-[100dvh] grid place-items-center">
       <div className="max-w-7xl mx-auto grid place-items-center">
      <div className="mx-3">
-     <div className=" lg:h-[500px] grid place-items-center rounded-md overflow-hidden">
+     <div className=" lg:h-[500px ] grid place-items-center rounded-md overflow-hidden">
           <HeroVideoDialog
             className=""
             animationStyle="from-center"
@@ -33,6 +33,6 @@ export default function ServicesVideo() {
         </div>
      </div>
       </div>
-    </div>
+    </section>
   );
 }

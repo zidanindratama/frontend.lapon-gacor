@@ -1,4 +1,4 @@
-import HeroSections from "@/components/sections/HeroSections";
+import HeroPartials from "@/components/sections/HeroSections";
 import NewsLater from "@/components/sections/NewsLater";
 import Testimonials from "@/components/sections/Testimonials";
 

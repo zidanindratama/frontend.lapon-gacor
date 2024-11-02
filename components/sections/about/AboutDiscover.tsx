@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutDiscover() {
   return (
-    <div className=" min-h-[100dvh] py-5  grid place-items-center">
+    <section className=" min-h-[100dvh] py-5  grid place-items-center">
       <div className="grid grid-cols-1 max-w-7xl container mx-auto md:grid-cols-2 items-center justify-items-center">
         <DoctorDiscover className="aspect-square w-3/4" />
         <div className="space-y-5 mx-3 my-3">
@@ -29,6 +29,6 @@ export default function AboutDiscover() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

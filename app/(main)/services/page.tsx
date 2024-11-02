@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSections from "@/components/sections/HeroSections";
+import HeroPartials from "@/components/sections/HeroSections";
 import {
   ServiceMentalCounseling,
   ServiceMentalCounselingMethod,
@@ -10,7 +10,13 @@ import {
 export default function Services() {
   return (
     <>
-      <HeroSections path="services" />
+      <HeroPartials
+        title="services"
+        description="Lorem ipsum dolor sit amet consectetur. Convallis est urna
+              adipiscing fringilla nulla diam lorem non mauris. Ultrices aliquet
+              at quam adipiscing feugiat interdum mattis. Placerat donec risus
+              diam sed et. A in ullamcorper ipsum."
+      />
       <ServiceMentalCounseling />
       <ServiceMentalCounselingMethod />
       <ServicesMentor />

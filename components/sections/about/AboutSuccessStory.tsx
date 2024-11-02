@@ -3,7 +3,7 @@ import React from "react";
 import { FaPlay } from "react-icons/fa";
 export default function AboutSuccessStory() {
   return (
-    <div className="w-full min-h-[100dvh] grid place-items-center">
+    <section className="w-full min-h-[100dvh] grid place-items-center">
       {" "}
       <div className="container max-w-7xl  mx-auto py-12 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -33,6 +33,6 @@ export default function AboutSuccessStory() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

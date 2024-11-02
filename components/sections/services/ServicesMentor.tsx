@@ -4,7 +4,7 @@ import { Flower2, Leaf } from "lucide-react";
 
 export default function ServicesMentor() {
   return (
-    <div className="min-h-[100dvh]  grid place-items-center relative">
+    <section className="min-h-[100dvh]  grid place-items-center relative">
       <div className="h-[700px] grid place-items-end relative w-full overflow-hidden">
         <div className="w-full grid md:justify-items-end justify-items-stretch bg-gradient-to-r py-10 h-full lg:h-[500px] from-greenSecondary to-greenPrimary ">
           <div className="absolute bottom-0  left-5  z-30">
@@ -57,6 +57,6 @@ export default function ServicesMentor() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

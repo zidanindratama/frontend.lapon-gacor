@@ -2,7 +2,7 @@ import FeatureCards from "@/components/FeaturesCard";
 import React from "react";
 export default function AboutReason() {
   return (
-    <div className="mx-auto max-w-7xl min-h-[100dvh] grid place-items-center">
+    <section className="mx-auto max-w-7xl min-h-[100dvh] grid place-items-center">
       <div className="">
         <div className="text-center w-3/4 mx-auto">
           <p className="font-medium text-lg">Why?</p>
@@ -13,7 +13,7 @@ export default function AboutReason() {
 
         <FeatureCards />
       </div>
-    </div>
+    </section>
   );
 }
 

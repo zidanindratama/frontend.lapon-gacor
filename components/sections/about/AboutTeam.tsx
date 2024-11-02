@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function AboutTeam() {
   return (
-    <div className="container min-h-[100dvh] max-w-7xl mx-auto py-12 px-4">
+    <section className="container min-h-[100dvh] max-w-7xl mx-auto py-12 px-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 order-last lg:order-first">
           <div className="space-y-4">
@@ -58,6 +58,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo dolores labo
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

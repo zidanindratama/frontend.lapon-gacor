@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutQuotes() {
   return (
-    <div className="h-[430px] w-full relative grid place-items-center">
+    <section className="h-[430px] w-full relative grid place-items-center">
       <div className="bg-black/50 absolute inset-0 w-full h-full z-10" />
       <Image
         src="/img/nature.jpg"
@@ -24,6 +24,6 @@ export default function AboutQuotes() {
         </div>
           <Quote className="text-white/50 absolute  bottom-0 right-0 w-16 h-16  lg:w-24 lg:h-24 " />
       </div>
-    </div>
+    </section>
   );
 }
